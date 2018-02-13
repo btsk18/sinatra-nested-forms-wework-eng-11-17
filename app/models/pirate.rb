@@ -10,4 +10,8 @@ class Pirate
     @height = height
     PIRATES << self
   end
+
+  def all
+    PIRATES
+  end
 end
